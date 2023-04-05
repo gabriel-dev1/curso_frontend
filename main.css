@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:silver;
+    color: steelblue;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    color: steelblue;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container {
+    margin: 150px auto;
+    max-width: 300px;
+    width: 100%;
+}
+
+form {
+    margin-top: 10px;
+}
+
+input, button {
+    padding: 8px 0;
+    width: 100%;
+}
+
+h1, input, li {
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:steelblue;
+    border: none;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+input {
+    font-family: "Roboto", sans-serif;
+    color:darkcyan;
+}
+
+input:focus {
+    outline-color: steelblue;
+}
+
+button:hover {
+    background-color: rgb(100, 128, 151);
+}
+
+ul li {
+    margin-top: 15px;
+    font-size: 17px;
+    cursor: pointer;
+    list-style: none;
+} 
