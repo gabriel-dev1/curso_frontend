@@ -5,6 +5,10 @@
   font-family: "Noto sans", sans-serif;
 }
 
+.text-color {
+  color: rgb(61, 88, 110);
+}
+
 .container {
   max-width: 1024px;
   width: 100%;
@@ -16,7 +20,7 @@ body {
 }
 
 .header {
-  background-color: slategrey;
+  background-color: rgb(35, 56, 74);
   padding: 23px;
   text-align: center;
   position: sticky;
@@ -43,11 +47,19 @@ body {
 }
 
 .section {
-  margin: 18px 0;
+  margin: 32px 1px;
+  border-right: 1px solid rgb(35, 56, 74);
 }
-.section h2 {
+.section__h2 {
   font-size: 32px;
-  margin: 9px;
+  margin: 9px 0;
+  color: rgb(35, 56, 74);
+}
+.section__text {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: rgb(35, 56, 74);
 }
 
 .grid {
@@ -65,12 +77,16 @@ body {
   width: 22vw;
   height: 23vh;
   margin: 8px 0;
+  border-radius: 9px;
 }
 .content__link {
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
-  color: steelblue;
+  color: rgb(61, 88, 110);
+}
+.content h4 {
+  border-bottom: 1px solid steelblue;
 }
 
 /*# sourceMappingURL=style.css.map */
