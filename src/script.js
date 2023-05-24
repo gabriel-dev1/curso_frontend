@@ -1,12 +1,14 @@
 const students = [
-    {nome: 'Maria', nota: 2},
-    {nome: 'Roger', nota: 7},
-    {nome: 'Marcos', nota: 4},
-    {nome: 'Jose', nota: 1,},
-    {nome: 'Luana', nota: 9},
-    {nome: 'Carla,', nota: 6},
-    {nome: 'Lucas', nota: 6},
-    {nome: 'Joao', nota: 3}
+    {
+    nome: 'Maria', nota: 2,
+    nome: 'Roger', nota: 7,
+    nome: 'Marcos', nota: 4,
+    nome: 'Jose', nota: 1,
+    nome: 'Luana', nota: 9,
+    nome: 'Carla,', nota: 6,
+    nome: 'Lucas', nota: 6,
+    nome: 'Joao', nota: 3
+    }
 ]
 
 const notasAltas = students.filter((student) => {
