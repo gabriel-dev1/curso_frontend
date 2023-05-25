@@ -1,8 +1,8 @@
-function multiplicar(a: number, b: number) {
+function multiplicar(a: number, b: number): number {
     return a * b
 }
 
-function dizOi(name: string)  {
+function dizOi(name: string): string  {
     return `Olá ${name}`
 }
 
